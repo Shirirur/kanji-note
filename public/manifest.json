@@ -2,16 +2,37 @@
   "name": "漢字ノート — Kanji Note",
   "short_name": "Kanji Note",
   "description": "Carnet personnel de vocabulaire et de kanji japonais",
-  "start_url": "/",
+  "id": "/kanji-note/",
+  "start_url": "/kanji-note/",
+  "scope": "/kanji-note/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#EFE9DD",
   "theme_color": "#2B4570",
   "icons": [
     {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/kanji-note/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/kanji-note/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/kanji-note/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/kanji-note/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ]
 }
