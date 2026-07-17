@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#EFE9DD"/>
+  <rect x="0" y="0" width="28" height="512" fill="#2B4570"/>
+  <text x="256" y="330" font-family="Georgia, 'Shippori Mincho', serif" font-size="240" font-weight="700" fill="#211F1C" text-anchor="middle">漢</text>
+  <circle cx="416" cy="120" r="46" fill="none" stroke="#C1443C" stroke-width="10"/>
+</svg>

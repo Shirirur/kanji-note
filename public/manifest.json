@@ -1,0 +1,17 @@
+{
+  "name": "漢字ノート — Kanji Note",
+  "short_name": "Kanji Note",
+  "description": "Carnet personnel de vocabulaire et de kanji japonais",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EFE9DD",
+  "theme_color": "#2B4570",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
