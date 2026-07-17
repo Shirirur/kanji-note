@@ -50,6 +50,115 @@ const SEED_WORDS = [
   { jp: "いいえ", fr: "non" },
   { jp: "おねがいします", fr: "s'il vous plaît" },
   { jp: "げんきですか", fr: "comment ça va" },
+  { jp: "きょう", fr: "aujourd'hui" },
+  { jp: "あした", fr: "demain" },
+  { jp: "きのう", fr: "hier" },
+  { jp: "まいにち", fr: "chaque jour" },
+  { jp: "いま", fr: "maintenant" },
+  { jp: "あさ", fr: "le matin" },
+  { jp: "ひる", fr: "midi" },
+  { jp: "よる", fr: "le soir, la nuit" },
+  { jp: "せんしゅう", fr: "la semaine dernière" },
+  { jp: "らいしゅう", fr: "la semaine prochaine" },
+  { jp: "ことし", fr: "cette année" },
+  { jp: "がっこう", fr: "école" },
+  { jp: "びょういん", fr: "hôpital" },
+  { jp: "えき", fr: "gare" },
+  { jp: "デパート", fr: "grand magasin" },
+  { jp: "ぎんこう", fr: "banque" },
+  { jp: "こうえん", fr: "parc" },
+  { jp: "としょかん", fr: "bibliothèque" },
+  { jp: "レストラン", fr: "restaurant" },
+  { jp: "いえ, うち", fr: "maison" },
+  { jp: "かいしゃ", fr: "entreprise" },
+  { jp: "みせ", fr: "magasin" },
+  { jp: "くうこう", fr: "aéroport" },
+  { jp: "せんせい", fr: "professeur" },
+  { jp: "がくせい", fr: "étudiant, étudiante" },
+  { jp: "ともだち", fr: "ami, amie" },
+  { jp: "ほん", fr: "livre" },
+  { jp: "つくえ", fr: "bureau, table" },
+  { jp: "いす", fr: "chaise" },
+  { jp: "かばん", fr: "sac" },
+  { jp: "でんわ", fr: "téléphone" },
+  { jp: "とけい", fr: "montre, horloge" },
+  { jp: "かさ", fr: "parapluie" },
+  { jp: "くるま", fr: "voiture" },
+  { jp: "じてんしゃ", fr: "vélo" },
+  { jp: "でんしゃ", fr: "train" },
+  { jp: "ひこうき", fr: "avion" },
+  { jp: "しんぶん", fr: "journal" },
+  { jp: "てがみ", fr: "lettre" },
+  { jp: "えんぴつ", fr: "crayon" },
+  { jp: "さいふ", fr: "portefeuille" },
+  { jp: "ごはん", fr: "riz cuit, repas" },
+  { jp: "パン", fr: "pain" },
+  { jp: "みず", fr: "eau" },
+  { jp: "おちゃ", fr: "thé" },
+  { jp: "コーヒー", fr: "café" },
+  { jp: "にく", fr: "viande" },
+  { jp: "さかな", fr: "poisson" },
+  { jp: "やさい", fr: "légume" },
+  { jp: "くだもの", fr: "fruit" },
+  { jp: "たまご", fr: "œuf" },
+  { jp: "たべる", fr: "manger" },
+  { jp: "のむ", fr: "boire" },
+  { jp: "いく", fr: "aller" },
+  { jp: "くる", fr: "venir" },
+  { jp: "みる", fr: "voir, regarder" },
+  { jp: "きく", fr: "écouter, entendre" },
+  { jp: "よむ", fr: "lire" },
+  { jp: "かく", fr: "écrire" },
+  { jp: "はなす", fr: "parler" },
+  { jp: "かう", fr: "acheter" },
+  { jp: "する", fr: "faire" },
+  { jp: "ねる", fr: "dormir" },
+  { jp: "おきる", fr: "se réveiller, se lever" },
+  { jp: "はたらく", fr: "travailler" },
+  { jp: "べんきょうする", fr: "étudier" },
+  { jp: "あそぶ", fr: "jouer" },
+  { jp: "まつ", fr: "attendre" },
+  { jp: "はいる", fr: "entrer" },
+  { jp: "でる", fr: "sortir" },
+  { jp: "すわる", fr: "s'asseoir" },
+  { jp: "わかる", fr: "comprendre" },
+  { jp: "おおきい", fr: "grand" },
+  { jp: "ちいさい", fr: "petit" },
+  { jp: "あたらしい", fr: "nouveau" },
+  { jp: "ふるい", fr: "vieux, ancien" },
+  { jp: "たかい", fr: "haut, cher" },
+  { jp: "やすい", fr: "bon marché" },
+  { jp: "いい, よい", fr: "bon, bien" },
+  { jp: "わるい", fr: "mauvais" },
+  { jp: "おもしろい", fr: "intéressant, amusant" },
+  { jp: "つまらない", fr: "ennuyeux" },
+  { jp: "むずかしい", fr: "difficile" },
+  { jp: "やさしい", fr: "facile" },
+  { jp: "いそがしい", fr: "occupé" },
+  { jp: "ひま", fr: "libre, disponible" },
+  { jp: "しずか", fr: "calme" },
+  { jp: "にぎやか", fr: "animé, vivant" },
+  { jp: "しんせつ", fr: "gentil, aimable" },
+  { jp: "きれい", fr: "joli, propre" },
+  { jp: "すき", fr: "aimé, apprécié" },
+  { jp: "きらい", fr: "détesté" },
+  { jp: "なに, なん", fr: "quoi" },
+  { jp: "だれ", fr: "qui" },
+  { jp: "どこ", fr: "où" },
+  { jp: "いつ", fr: "quand" },
+  { jp: "どう", fr: "comment" },
+  { jp: "どうして, なぜ", fr: "pourquoi" },
+  { jp: "いくら", fr: "combien (prix)" },
+  { jp: "いくつ", fr: "combien (quantité)" },
+  { jp: "どれ", fr: "lequel" },
+  { jp: "いただきます", fr: "bon appétit" },
+  { jp: "ごちそうさま", fr: "merci pour le repas" },
+  { jp: "いってきます", fr: "je pars, à tout à l'heure" },
+  { jp: "ただいま", fr: "je suis rentré" },
+  { jp: "おかえりなさい", fr: "bienvenue, te voilà rentré" },
+  { jp: "おやすみなさい", fr: "bonne nuit" },
+  { jp: "だいじょうぶ", fr: "ça va, pas de problème" },
+  { jp: "わかりました", fr: "j'ai compris" },
 ];
 
 const SEED_KANJI = [
@@ -192,8 +301,10 @@ const withStats = (item) => ({
 });
 
 const weightOf = (item) => {
-  const w = 1 + item.wrong * 2 - Math.min(item.streak, 3);
-  return Math.max(1, w);
+  const attempts = item.correct + item.wrong;
+  if (attempts === 0) return 5; // priorité modérée pour introduire les nouvelles entrées
+  const w = 1 + item.wrong - item.streak * 0.5;
+  return Math.max(1, Math.min(4, w)); // toujours au moins 1 (jamais oublié), jamais plus de 4x (pas de sur-focalisation)
 };
 
 const pickWeighted = (list, excludeId) => {
@@ -437,6 +548,7 @@ export default function App() {
             ["quiz", "révision"],
             ["mots", "語彙 · mots"],
             ["kanji", "漢字 · kanji"],
+            ["gerer", "管理 · gérer"],
             ["stats", "統計 · stats"],
           ].map(([key, label]) => (
             <button
@@ -507,6 +619,10 @@ export default function App() {
                 saveHint={saveHint}
                 narrow={narrow}
               />
+            )}
+
+            {tab === "gerer" && (
+              <ManagePanel words={words} setWords={setWords} kanjis={kanjis} setKanjis={setKanjis} />
             )}
 
             {tab === "stats" && <StatsPanel words={words} kanjis={kanjis} stats={stats} />}
@@ -771,17 +887,217 @@ function Field({ label, children }) {
 }
 
 /* ============================================================
+   panneau de gestion (modifier / supprimer)
+   ============================================================ */
+
+function ManagePanel({ words, setWords, kanjis, setKanjis }) {
+  const [manageType, setManageType] = useState("mots");
+  const [filter, setFilter] = useState("");
+  const [editingId, setEditingId] = useState(null);
+  const [editForm, setEditForm] = useState({});
+  const [confirmDeleteId, setConfirmDeleteId] = useState(null);
+
+  const isWord = manageType === "mots";
+  const items = isWord ? words : kanjis;
+  const setItems = isWord ? setWords : setKanjis;
+
+  const visible = items.filter((item) =>
+    isWord
+      ? normalize(item.jp + " " + item.fr).includes(normalize(filter))
+      : normalize(item.char + " " + item.meaning + " " + item.on + " " + item.kun).includes(normalize(filter))
+  );
+
+  const switchType = (t) => {
+    setManageType(t);
+    setEditingId(null);
+    setConfirmDeleteId(null);
+    setFilter("");
+  };
+
+  const startEdit = (item) => {
+    setConfirmDeleteId(null);
+    setEditingId(item.id);
+    setEditForm(
+      isWord
+        ? { jp: item.jp, fr: item.fr }
+        : { char: item.char, meaning: item.meaning, on: item.on, kun: item.kun, example: item.example || "", mnemonic: item.mnemonic || "" }
+    );
+  };
+
+  const cancelEdit = () => {
+    setEditingId(null);
+    setEditForm({});
+  };
+
+  const saveEdit = () => {
+    if (isWord && (!editForm.jp.trim() || !editForm.fr.trim())) return;
+    if (!isWord && (!editForm.char.trim() || !editForm.meaning.trim())) return;
+    setItems((prev) =>
+      prev.map((item) =>
+        item.id === editingId
+          ? isWord
+            ? { ...item, jp: editForm.jp.trim(), fr: editForm.fr.trim() }
+            : {
+                ...item,
+                char: editForm.char.trim(),
+                meaning: editForm.meaning.trim(),
+                on: editForm.on.trim() || "―",
+                kun: editForm.kun.trim() || "―",
+                example: editForm.example.trim(),
+                mnemonic: editForm.mnemonic.trim(),
+              }
+          : item
+      )
+    );
+    setEditingId(null);
+    setEditForm({});
+  };
+
+  const doDelete = (id) => {
+    setItems((prev) => prev.filter((item) => item.id !== id));
+    setConfirmDeleteId(null);
+    if (editingId === id) cancelEdit();
+  };
+
+  return (
+    <div>
+      <div style={styles.controlsRow}>
+        <Segmented value={manageType} onChange={switchType} options={[["mots", "Mots"], ["kanji", "Kanji"]]} />
+        <input
+          className="jn-input"
+          style={{ ...styles.textInput, maxWidth: 220 }}
+          placeholder="rechercher…"
+          value={filter}
+          onChange={(e) => setFilter(e.target.value)}
+        />
+      </div>
+
+      {items.length === 0 ? (
+        <div style={styles.emptyState}>
+          Ton lexique {isWord ? "de mots" : "de kanji"} est vide. Ajoute des entrées depuis l'onglet correspondant.
+        </div>
+      ) : (
+        <div style={styles.listCard}>
+          <div className="jn-scroll" style={styles.listScroll}>
+            {visible.length === 0 && <div style={styles.emptyState}>aucun résultat.</div>}
+            {visible.map((item) => {
+              const editingThis = editingId === item.id;
+              return (
+                <div key={item.id} style={styles.manageRow}>
+                  {editingThis ? (
+                    isWord ? (
+                      <div style={styles.editGrid}>
+                        <Field label="mot japonais">
+                          <input className="jn-input" style={styles.textInput} value={editForm.jp}
+                            onChange={(e) => setEditForm({ ...editForm, jp: e.target.value })} />
+                        </Field>
+                        <Field label="traduction(s)">
+                          <input className="jn-input" style={styles.textInput} value={editForm.fr}
+                            onChange={(e) => setEditForm({ ...editForm, fr: e.target.value })} />
+                        </Field>
+                      </div>
+                    ) : (
+                      <div style={styles.editGrid}>
+                        <Field label="caractère">
+                          <input className="jn-input" style={{ ...styles.textInput, fontSize: 20 }} value={editForm.char}
+                            onChange={(e) => setEditForm({ ...editForm, char: e.target.value })} />
+                        </Field>
+                        <Field label="signification(s)">
+                          <input className="jn-input" style={styles.textInput} value={editForm.meaning}
+                            onChange={(e) => setEditForm({ ...editForm, meaning: e.target.value })} />
+                        </Field>
+                        <div style={styles.twoCol}>
+                          <Field label="onyomi">
+                            <input className="jn-input" style={styles.textInput} value={editForm.on}
+                              onChange={(e) => setEditForm({ ...editForm, on: e.target.value })} />
+                          </Field>
+                          <Field label="kunyomi">
+                            <input className="jn-input" style={styles.textInput} value={editForm.kun}
+                              onChange={(e) => setEditForm({ ...editForm, kun: e.target.value })} />
+                          </Field>
+                        </div>
+                        <Field label="exemple">
+                          <input className="jn-input" style={styles.textInput} value={editForm.example}
+                            onChange={(e) => setEditForm({ ...editForm, example: e.target.value })} />
+                        </Field>
+                        <Field label="moyen mnémotechnique">
+                          <textarea className="jn-input" style={{ ...styles.textInput, minHeight: 60, resize: "vertical" }} value={editForm.mnemonic}
+                            onChange={(e) => setEditForm({ ...editForm, mnemonic: e.target.value })} />
+                        </Field>
+                      </div>
+                    )
+                  ) : (
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      {isWord ? (
+                        <>
+                          <div style={styles.listPrimary}>{item.jp}</div>
+                          <div style={styles.listSecondary}>{item.fr}</div>
+                        </>
+                      ) : (
+                        <>
+                          <div style={styles.listPrimary}>
+                            <span className="jn-display" style={{ fontSize: 20, marginRight: 8 }}>{item.char}</span>
+                            {item.meaning}
+                          </div>
+                          <div style={styles.listSecondary}>on : {item.on} · kun : {item.kun}</div>
+                        </>
+                      )}
+                      <div style={styles.listStats}>
+                        {item.correct + item.wrong > 0 ? `${item.correct}✓ / ${item.wrong}✕` : "pas encore révisé"}
+                      </div>
+                    </div>
+                  )}
+
+                  <div style={styles.manageActions}>
+                    {editingThis ? (
+                      <>
+                        <button className="jn-btn" onClick={saveEdit} style={styles.primaryBtnSmall}>enregistrer</button>
+                        <button className="jn-btn" onClick={cancelEdit} style={styles.ghostBtnSmall}>annuler</button>
+                      </>
+                    ) : confirmDeleteId === item.id ? (
+                      <>
+                        <span style={styles.confirmText}>supprimer ?</span>
+                        <button className="jn-btn" onClick={() => doDelete(item.id)} style={styles.dangerBtnSmall}>oui</button>
+                        <button className="jn-btn" onClick={() => setConfirmDeleteId(null)} style={styles.ghostBtnSmall}>non</button>
+                      </>
+                    ) : (
+                      <>
+                        <button className="jn-btn" onClick={() => startEdit(item)} style={styles.ghostBtnSmall}>modifier</button>
+                        <button className="jn-btn" onClick={() => setConfirmDeleteId(item.id)} style={styles.deleteBtn} title="supprimer">✕</button>
+                      </>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ============================================================
    panneau statistiques
    ============================================================ */
 
 function StatsPanel({ words, kanjis, stats }) {
+  const [showWords, setShowWords] = useState(false);
+  const [showKanjis, setShowKanjis] = useState(false);
+  const [wordsQ, setWordsQ] = useState("");
+  const [kanjisQ, setKanjisQ] = useState("");
+
+  const visibleWords = words.filter((w) => normalize(w.jp + " " + w.fr).includes(normalize(wordsQ)));
+  const visibleKanjis = kanjis.filter((k) =>
+    normalize(k.char + " " + k.meaning + " " + k.on + " " + k.kun).includes(normalize(kanjisQ))
+  );
+
   return (
     <div>
       <div style={styles.statsGrid}>
         <StatCard label="mots dans le lexique" value={words.length} />
         <StatCard label="kanji dans le lexique" value={kanjis.length} />
         <StatCard label="réponses données" value={stats.totalAttempts} />
-        <StatCard label="taux de réussite" value={stats.accuracy !== null ? `${stats.accuracy}%` : "—"} />
       </div>
 
       <h2 className="jn-display" style={{ ...styles.panelTitle, marginTop: 28 }}>points à retravailler</h2>
@@ -810,6 +1126,81 @@ function StatsPanel({ words, kanjis, stats }) {
           </div>
         </div>
       )}
+
+      <div style={styles.browseSection}>
+        <button className="jn-btn" onClick={() => setShowWords((v) => !v)} style={styles.browseToggle}>
+          <span className="jn-display" style={styles.panelTitle}>tous les mots <span style={{ color: "var(--jn-ink-soft)", fontWeight: 400, fontSize: 14 }}>({words.length})</span></span>
+          <span style={styles.browseArrow}>{showWords ? "▲" : "▼"}</span>
+        </button>
+        {showWords && (
+          words.length === 0 ? (
+            <div style={styles.emptyState}>ton lexique de mots est vide.</div>
+          ) : (
+            <div style={{ ...styles.listCard, marginTop: 8 }}>
+              <input
+                className="jn-input"
+                style={{ ...styles.textInput, marginBottom: 10 }}
+                placeholder="rechercher un mot…"
+                value={wordsQ}
+                onChange={(e) => setWordsQ(e.target.value)}
+              />
+              <div className="jn-scroll" style={styles.listScroll}>
+                {visibleWords.length === 0 && <div style={styles.emptyState}>aucun résultat.</div>}
+                {visibleWords.map((w) => (
+                  <div key={w.id} style={styles.listRow}>
+                    <div style={{ flex: 1 }}>
+                      <div style={styles.listPrimary}>{w.jp}</div>
+                      <div style={styles.listSecondary}>{w.fr}</div>
+                      <div style={styles.listStats}>
+                        {w.correct + w.wrong > 0 ? `${w.correct}✓ / ${w.wrong}✕` : "pas encore révisé"}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )
+        )}
+      </div>
+
+      <div style={styles.browseSection}>
+        <button className="jn-btn" onClick={() => setShowKanjis((v) => !v)} style={styles.browseToggle}>
+          <span className="jn-display" style={styles.panelTitle}>tous les kanji <span style={{ color: "var(--jn-ink-soft)", fontWeight: 400, fontSize: 14 }}>({kanjis.length})</span></span>
+          <span style={styles.browseArrow}>{showKanjis ? "▲" : "▼"}</span>
+        </button>
+        {showKanjis && (
+          kanjis.length === 0 ? (
+            <div style={styles.emptyState}>ton lexique de kanji est vide.</div>
+          ) : (
+            <div style={{ ...styles.listCard, marginTop: 8 }}>
+              <input
+                className="jn-input"
+                style={{ ...styles.textInput, marginBottom: 10 }}
+                placeholder="rechercher un kanji…"
+                value={kanjisQ}
+                onChange={(e) => setKanjisQ(e.target.value)}
+              />
+              <div className="jn-scroll" style={styles.listScroll}>
+                {visibleKanjis.length === 0 && <div style={styles.emptyState}>aucun résultat.</div>}
+                {visibleKanjis.map((k) => (
+                  <div key={k.id} style={styles.listRow}>
+                    <div style={{ flex: 1 }}>
+                      <div style={styles.listPrimary}>
+                        <span className="jn-display" style={{ fontSize: 20, marginRight: 8 }}>{k.char}</span>
+                        {k.meaning}
+                      </div>
+                      <div style={styles.listSecondary}>on : {k.on} · kun : {k.kun}</div>
+                      <div style={styles.listStats}>
+                        {k.correct + k.wrong > 0 ? `${k.correct}✓ / ${k.wrong}✕` : "pas encore révisé"}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )
+        )}
+      </div>
     </div>
   );
 }
@@ -1156,6 +1547,87 @@ const styles = {
     color: "var(--jn-ink-soft)",
     cursor: "pointer",
     fontSize: 13,
+  },
+  manageRow: {
+    display: "flex",
+    alignItems: "flex-start",
+    gap: 10,
+    background: "#fff",
+    border: "1px solid var(--jn-line)",
+    borderRadius: 8,
+    padding: "10px 12px",
+  },
+  editGrid: {
+    flex: 1,
+    minWidth: 0,
+  },
+  manageActions: {
+    display: "flex",
+    alignItems: "center",
+    gap: 8,
+    flexShrink: 0,
+    flexWrap: "wrap",
+    justifyContent: "flex-end",
+  },
+  primaryBtnSmall: {
+    background: "var(--jn-indigo)",
+    color: "#fff",
+    border: "none",
+    borderRadius: 6,
+    padding: "6px 12px",
+    fontSize: 12.5,
+    fontWeight: 600,
+    cursor: "pointer",
+    fontFamily: "inherit",
+    whiteSpace: "nowrap",
+  },
+  ghostBtnSmall: {
+    background: "none",
+    color: "var(--jn-ink-soft)",
+    border: "1px solid var(--jn-line)",
+    borderRadius: 6,
+    padding: "6px 12px",
+    fontSize: 12.5,
+    cursor: "pointer",
+    fontFamily: "inherit",
+    whiteSpace: "nowrap",
+  },
+  dangerBtnSmall: {
+    background: "var(--jn-hanko)",
+    color: "#fff",
+    border: "none",
+    borderRadius: 6,
+    padding: "6px 12px",
+    fontSize: 12.5,
+    fontWeight: 600,
+    cursor: "pointer",
+    fontFamily: "inherit",
+    whiteSpace: "nowrap",
+  },
+  confirmText: {
+    fontSize: 12.5,
+    color: "var(--jn-ink-soft)",
+    marginRight: 2,
+  },
+  browseSection: {
+    marginTop: 24,
+  },
+  browseToggle: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: "100%",
+    background: "var(--jn-card)",
+    border: "1px solid var(--jn-line)",
+    borderRadius: 10,
+    padding: "12px 16px",
+    cursor: "pointer",
+    fontFamily: "inherit",
+    textAlign: "left",
+  },
+  browseArrow: {
+    color: "var(--jn-ink-soft)",
+    fontSize: 12,
   },
   statsGrid: {
     display: "grid",
